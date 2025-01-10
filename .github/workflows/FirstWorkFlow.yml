@@ -22,8 +22,8 @@ jobs:
         - uses: actions/setup-node@v4
         - name: instalar dependencias
           run: npm install
-        - name: Build project
-          run: npm run build
+        - name: Pasar Lint
+          run: npm run lint
 
 
   # build-and-test:
